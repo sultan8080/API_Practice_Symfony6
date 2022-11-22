@@ -1,0 +1,13 @@
+api_platform:
+    
+    title: 'Web service avec api platform'
+    description: 'démo sur les web services avec api platform et symfony'
+    version: '1.0.0'
+
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+
