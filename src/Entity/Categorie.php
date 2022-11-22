@@ -14,9 +14,11 @@ use ApiPlatform\Metadata\Post;
 #[ORM\Entity(repositoryClass: CategorieRepository::class)]
 #[ApiResource(operations: [new GetCollection(), new Put(), new Get(), new Post()])]
 
+// second method
 // #[ApiResource]
 // #[Post()]
 // #[GetCollection()]
+
 
 class Categorie
 {
